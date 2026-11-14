@@ -1,13 +1,70 @@
 <!DOCTYPE html>
-<html>
+<!--
+Portfolio Site
+Sergio Ramirez, 11/14/2026
+// -->
+<html lang="en">
 <head>
-    <title>SR Portfolio</title>
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRPortfolio</title>
+ <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav>
+    <button data-page="home" class="active">Home</button>
+    <button data-page="about">About</button>
+    <button data-page="portfolio">Portfolio</button>
+  </nav>
 
-    <h1>Hello World</h1>
+  <div id="home" class="page active">
+    <h1>Sergio Ramirez's Web Development Portfolio</h1>
 
+    <h2>Skills</h2>
+        <p>Throughout the years I've worked on various projects developing my skills. They are as follows:</p>
+          
+          <ul>
+              <ol>Processing</ol>
+                  <li>Skills in Java</li>
+              <ol>Web Development</ol>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>DOM Manipulation</li>
+                  <li>Event Handling</li>
+                  <li>Interactive UIs</li>
+          </ul>
+        
+    
+  </div>
 
+  <div id="about" class="page">
+    <h1>About Sergio Ramirez</h1>
+        <p>I've gone through different programs throughout the years. These are just a few</p>
+    <h2>Education</h2>
+      <h3>City College Chicago</h3>
+          <ul>
+              <li>Associates in Art</li>
+                  <ol>Intro to Web Development</ol>
+          </ul>
+      <h3>Columbia College Chicago</h3>
+          <ul>
+              <li>Bachelor's in Interactive media and Game design</li>
+                  <ol>Intro to Programming</ol>
+          </ul>
+  </div>
+
+  <div id="portfolio" class="page">
+    <h1>Projects</h1>
+        <p>These are screenshots of previous works I've created</p>
+
+      <h2>Creative Coding with Processing!</h2>
+      
+      </div>
+
+<script src="script.js"></script>
+
+<footer>Developed by Sergio Ramirez</footer>
 </body>
 </html>
